@@ -94,9 +94,11 @@ body {
     box-shadow: 2px 2px rgb(187, 187, 187);
     border-color: rgb(46, 46, 255);
     border-width: thin;
+    outline: none;
 }
 
-.user_email:invalid {
+
+#user_email:invalid {
     border-color: red;
 }
 
